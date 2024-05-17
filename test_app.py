@@ -41,6 +41,7 @@ class TestWebApp(unittest.TestCase):
         # TODO: Check that non-logged-in user should be redirected to /login
         if current_user == None:
             return False
+        print("WORK!!!!! MAKE THIS CODE HERE WORK!!!!!!!!")
         return current_user.is_authenticated
 
 
